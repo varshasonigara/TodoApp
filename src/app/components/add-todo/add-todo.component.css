@@ -1,0 +1,17 @@
+.add-todo{
+    margin:5px;
+    padding:10px;
+    background-color:#ddd;
+    display:flex;
+}
+
+.addBttn{
+    color:#fff;
+    background-color: #5cb85c;
+    float:right;
+}
+
+.add-todo input[type="text"]{
+    flex-grow:1;
+    margin-right: 5px;
+}

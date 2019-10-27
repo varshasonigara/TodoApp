@@ -1,0 +1,8 @@
+<div class="todo-item">
+    <label class="checkbox-container">
+        <input type="checkbox" (change)="onToggleCheckbox()" [checked]="todo.completed" />
+        <span class="checkmark"></span>
+    </label>
+    <p [ngClass]="setClass()">{{todo.title}}</p>
+    <button class="del" (click)="onDeleteTodo(todo)">Delete</button>
+</div>
